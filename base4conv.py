@@ -42,7 +42,9 @@ def mma_matrix(refSeqStart, refSeqEnd, fqSeqStart, fqSeqEnd):
 
 
 
-print(mma_matrix(0, 4**1, 0, 4**1))
+print(mma_matrix(0, 4**2, 0, 4**2))
+
+fullList = mma_matrix(0, 4**2, 0, 4**2)
 
 '''
 fullArray = np.empty((len(refSeq), len(fastqSeq)), int)
